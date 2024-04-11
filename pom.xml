@@ -1,0 +1,104 @@
+		<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+		  <modelVersion>4.0.0</modelVersion>
+		  <groupId>DsAlgo_Practice</groupId>
+		  <artifactId>DsAlgo_Practice</artifactId>
+		  <version>0.0.1-SNAPSHOT</version>
+		  <dependencies>
+		 <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>4.18.1</version>
+	</dependency>
+	
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-json -->
+		<dependency>
+		    <groupId>org.seleniumhq.selenium</groupId>
+		    <artifactId>selenium-json</artifactId>
+		    <version>4.14.1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-manager -->
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-manager</artifactId>
+	    <version>4.19.1</version>
+	</dependency>
+	
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-core</artifactId>
+		    <version>3.0.0-alpha1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+		    <groupId>org.apache.logging.log4j</groupId>
+		    <artifactId>log4j-api</artifactId>
+		    <version>3.0.0-alpha1</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/software.reinvent/headless-chrome -->
+		<dependency>
+		    <groupId>software.reinvent</groupId>
+		    <artifactId>headless-chrome</artifactId>
+		    <version>0.3.6</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml</artifactId>
+		    <version>5.2.4</version>
+		</dependency>
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-plugin</artifactId>
+		    <version>7.16.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-picocontainer</artifactId>
+		    <version>7.16.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-java</artifactId>
+		    <version>7.16.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
+		<dependency>
+		    <groupId>io.cucumber</groupId>
+		    <artifactId>cucumber-junit</artifactId>
+		    <version>7.16.1</version>
+		    <scope>test</scope>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-cucumber7-jvm -->
+		<dependency>
+		    <groupId>io.qameta.allure</groupId>
+		    <artifactId>allure-cucumber7-jvm</artifactId>
+		    <version>2.24.0</version>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-java-commons -->
+		<dependency>
+		    <groupId>io.qameta.allure</groupId>
+		    <artifactId>allure-java-commons</artifactId>
+		    <version>2.24.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.allure/allure-cucumber-jvm-adaptor -->
+		<dependency>
+		    <groupId>ru.yandex.qatools.allure</groupId>
+		    <artifactId>allure-cucumber-jvm-adaptor</artifactId>
+		    <version>1.6.4</version>
+		</dependency>
+		
+		  
+		  
+		  </dependencies>
+		  
+  
+		</project>
